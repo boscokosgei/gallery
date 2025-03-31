@@ -72,7 +72,7 @@ pipeline {
                 botUser: true,
                 channel: 'C08L0RA7KRQ',
                 color: '#36a64f',  
-                message: "✅ Deployment successful! Build ID - ${env.BUILD_ID}. 🚀 Check it here: https://gallery-8f5e.onrender.com",
+                message: "✅ Your Deployment has been  successful! Build ID - ${env.BUILD_ID}. 🚀 Check it here: https://gallery-8f5e.onrender.com",
                 teamDomain: 'boscoip1',
                 tokenCredentialId: 'slacklog'
             )
