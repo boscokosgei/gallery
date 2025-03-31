@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'NodeJS 23.10.0' // Ensure this name matches your Global Tool Configuration
+        nodejs 'NodeJS 23.10.0' 
     }
     environment {
         DEPLOY_HOOK_URL = 'https://api.render.com/deploy/srv-cvkodk49c44c73d8hqg0?key=3xveVvjJDvg' 
