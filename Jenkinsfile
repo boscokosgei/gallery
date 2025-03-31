@@ -60,6 +60,19 @@ pipeline {
                 }
             }
         }
+        stage('Notify on Slack Success'){
+            steps{
+                script{
+                    //send a slack message upon successful deployment
+                    if (currentBuild.result == 'SUCCESS') {
+                        slackSend(
+                            channel: '#C08L0RA7KRQ',  // Your Slack channel name 
+                            color: 'good',  // Green color for success
+                            message: "Deployment Successful! Build ID: ${env.BUILD_ID}. Visit the site at: ${env.RENDER_URL}"
+                        )
+                }
+            }
+        }
     }
 
     post {
