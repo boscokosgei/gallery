@@ -56,7 +56,7 @@ pipeline {
                         curl -X POST ${DEPLOY_HOOK_URL}
                     """, returnStdout: true).trim()
                    
-                    echo "Deploying Response: ${response}"
+                    echo "Deploying Responses: ${response}"
                 }
             }
         }
