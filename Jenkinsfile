@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'NodeJS 23.11.0'
+        nodejs 'NodeJS 23.11.0' //Node Js Version Updated
     }
 
     environment {
