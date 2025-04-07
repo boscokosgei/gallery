@@ -2,4 +2,6 @@
 
 Running the Updated App
 
-ensure Ngrok is listening
+Ensure Ngrok is listening
+
+Github Integration with Jenkins
