@@ -15,3 +15,5 @@ Updating Github Credentials
 Updating Github with ngrok link https://15a2-102-0-16-40.ngrok-free.app
 
 Whitlisting IP on Mongodb Atlas
+
+MongoDB Networking access to allow 0.0.0.0/0
