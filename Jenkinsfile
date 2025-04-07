@@ -70,7 +70,7 @@ pipeline {
         success {
             slackSend(
                 botUser: true,
-                channel: 'C08L0RA7KRQ',
+                channel: 'C08L0RA7KRQ', //slack Channel ID
                 color: '#36a64f',  
                 message: "✅ Your Deployment has been  successful! Build ID - ${env.BUILD_ID}. 🚀 Check it here: https://gallery-8f5e.onrender.com",
                 teamDomain: 'boscoip1',
